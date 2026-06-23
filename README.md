@@ -23,7 +23,7 @@ Deployed a serverless Python function on AWS Lambda. CostCalculatorFunction exec
 ![AWS Lambda](pic3.jpg)
 
 *4. Project Files*
-![Project Files](project4.png)
+[Project Files](project4.png)
 
 ## Lambda Function Code
 ```python
