@@ -25,6 +25,7 @@ Deployed a serverless Python function on AWS Lambda. CostCalculatorFunction exec
 *4. Project Files*
 ![Project Files](project4.png)
 
+
 ## Lambda Function Code
 ```python
 import json
