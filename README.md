@@ -14,16 +14,16 @@ Deployed a serverless Python function on AWS Lambda. CostCalculatorFunction exec
 ## Screenshots
 
 *1. Lambda Function Overview*
-![Lambda Overview](WhatsApp%20Image%202026-06-23%20at%2010.42.28%20AM.jpg)
+[Lambda Overview](WhatsApp%20Image%202026-06-23%20at%2010.42.28%20AM.jpg)
 
 *2. Test Event Configuration*
-![Test Event](WhatsApp%20Image%202026-06-23%20at%2010.42.28%20AM%20(1).jpg)
+[Test Event](WhatsApp%20Image%202026-06-23%20at%2010.42.28%20AM%20(1).jpg)
 
 *3. Execution Result 2.16ms*
-![Execution Success](WhatsApp%20Image%202026-06-23%20at%2010.42.28%20AM%20(2).jpg)
+[Execution Success](WhatsApp%20Image%202026-06-23%20at%2010.42.28%20AM%20(2).jpg)
 
 *4. Project Files View*
-![Project Files](project%204.PNG)
+[Project Files](project%204.PNG)
 
 
 ## Lambda Function Code
