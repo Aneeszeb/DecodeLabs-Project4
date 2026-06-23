@@ -11,20 +11,6 @@ Deployed a serverless Python function on AWS Lambda. CostCalculatorFunction exec
 5. Executed function and verified results in CloudWatch logs
 6. Confirmed execution metrics: 2.16ms runtime, 94ms billed duration
 
-## Screenshots - Proof of Execution
-
-*1. Lambda Function Configuration*
-![Lambda Function Configuration](WhatsApp%20Image%202025-08-11%20at%2001.43.29_10c08461.jpg)
-
-*2. Test Event Configuration*
-![Test Event Configuration](WhatsApp%20Image%202025-08-11%20at%2001.43.29_a7e15564.jpg)
-
-*3. Execution Result 2.16ms*
-![Execution Success](WhatsApp%20Image%202025-08-11%20at%2001.43.29_6dcc0ae2.jpg)
-
-*4. Project Files View*
-![Project Files](project%204.PNG)
-
 ## Lambda Function Code
 ```python
 import json
@@ -46,6 +32,22 @@ def lambda_handler(event, context):
             'execution_time_ms': 2.16,
             'billed_duration_ms': 94,
             'memory_used_mb': 36,
+})
+    }
+
+## Screenshots
+
+*1. Lambda Function Overview*
+![Lambda Overview](WhatsApp%20Image%202026-06-23%20at%2010.42.28%20AM.jpg)
+
+*2. Test Event Configuration*
+![Test Event](WhatsApp%20Image%202026-06-23%20at%2010.42.28%20AM%20(1).jpg)
+
+*3. Execution Result 2.16ms*
+![Execution Success](WhatsApp%20Image%202026-06-23%20at%2010.42.28%20AM%20(2).jpg)
+
+*4. Project Files View*
+![Project Files](project%204.PNG)
 
 
         })
